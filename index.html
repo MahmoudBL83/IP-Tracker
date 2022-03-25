@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- displays site properly based on user's device -->
+      <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Cairo&family=Lato&family=Montserrat:wght@300&family=Open+Sans:ital,wght@0,300;0,500;1,400&family=Roboto&family=Rubik:wght@400&display=swap" rel="stylesheet">
+      <!--leaflet file-->
+      <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+         integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+         crossorigin=""/>
+      <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+         crossorigin=""></script>
+      <link rel="stylesheet" href="style.css">
+      <title>Frontend Mentor | IP Address Tracker</title>
+   </head>
+   <body>
+      <div id="heading">
+         <h1>IP Address Tracker</h1>
+         <article><input type="text" placeholder="Search for any IP address or domain" style="height:50px;box-shadow: 0 2px 15px rgb(0 0 0 / 20%);width:100%;border-top-left-radius: 15px;border-bottom-left-radius: 15px;border-style:none; padding-left:25px;font-size:1.1em;color:hsl(0, 0%, 59%);"><span id="arrow">></span>
+         </article>
+      </div>
+      <div id="psudo">
+         <div class="parent">
+            <article>IP ADDRESS</article>
+            <div id="ip"></div>
+         </div>
+         <div class="parent">
+            <article>LOCATION</article>
+            <div id="location"></div>
+         </div>
+         <div class="parent">
+            <article>TIMEZONE</article>
+            <div id="time"></div>
+         </div>
+         <div class="parentx">
+            <article>ISP</article>
+            <div id="isp"></div>
+         </div>
+      </div>
+      <img src="images/maps.jpg" alt="">
+      <div id="map">
+      </div>
+      <div class="attribution">
+         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+         Coded by <a href="#">Mahmoud Bahaa</a>.
+      </div>
+   </body>
+   <script src="app.js"></script>
+</html>
