@@ -6,7 +6,7 @@ body {
 }
 
 #heading {
-  background-image: url(images/pattern-bg.png);
+  background-image: url(pattern-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 300px;
