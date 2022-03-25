@@ -22,11 +22,11 @@ Users should be able to:
 
 ### Screenshot
 
-(./Solution.png)
+(Solution.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://mahmoudbl83.github.io/IP-Tracker/)
 
 ### Built with
 
