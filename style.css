@@ -98,10 +98,11 @@ body {
 }
 
 img{
-  width:100%;
+  width:100vw;
   height:calc(100vh - 250px);
   position:relative; 
   z-index:-4;
+  
 }
 
 .attribution {
